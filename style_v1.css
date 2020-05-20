@@ -1,0 +1,53 @@
+#gameContainer{
+	/*display: flex;*/
+	height: 600px;
+	width: 1000px;
+	position: relative;
+	padding: 100px;
+	margin: auto 20% 0px;
+}
+#gamepad{
+	/*display: flex;*/
+	justify-content: center;
+	height: 400px;
+	width: 800px;
+	background-color: #000000;
+	border: 4px solid #FF4900;
+	margin: 50px;
+}
+#score{
+	position: absolute;
+	background-color: #EDE109;
+	top: 13%;
+	left: 12%;
+}
+#gameover{
+	display: none;
+	position: absolute;
+	height: 400px;
+	width: 805px;
+	background-color: #28E3E8;
+	top: 19%;
+	left: 13%;
+	z-index: 2;
+}
+#reset{
+	position: absolute;
+	font-size: 20px;
+	left: 40%;
+	top: 90%;
+}
+#starting{
+	position: absolute;
+	top: 13%;
+	left: 40%;
+	font-size: 30px;
+}
+#startgame:hover,#reset:hover{
+	cursor: pointer;
+}
+#finaltext,#span{
+	font-size: 20px;
+	text-align: center;
+	color: #F00000;
+}

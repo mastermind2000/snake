@@ -1,0 +1,10 @@
+#gamepad{
+	display: flex;
+	justify-content: center;
+	height: 400px;
+	width: 800px;
+	background-color: #000000;
+	border: 4px solid #FF4900;
+	margin: 50px;
+	padding:100px;
+}
